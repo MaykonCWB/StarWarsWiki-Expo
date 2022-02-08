@@ -1,23 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
-import { Text, Logo } from '../../components';
-import logoImage from '../../../assets/logowars.png';
+import { StatusBar } from 'expo-status-bar'
+import React from 'react'
+import { Text, Logo, Container } from '../../components'
+import logoImage from '../../../assets/logowars.png'
 
 export const SplasshScreen = () => {
   return (
-    <View style={styles.container}>
+    <Container align="center" justify="center">
       <Logo />
       <Text>StarWars Wiki Blade.</Text>
       <StatusBar style="auto" />
-    </View>
-  );
+    </Container>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#161616',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
