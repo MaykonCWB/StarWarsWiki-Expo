@@ -1,5 +1,6 @@
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
 import { StatusBar } from 'expo-status-bar'
-import { Home } from './src/screens'
 import AppLoading from 'expo-app-loading'
 import { ThemeProvider } from 'styled-components'
 import {
@@ -10,6 +11,7 @@ import {
   SourceSansPro_900Black,
 } from '@expo-google-fonts/source-sans-pro'
 import { theme } from './src/styles'
+import { Routes } from './src/routes'
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -25,7 +27,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <Routes />
     </ThemeProvider>
   )
 }
