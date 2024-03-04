@@ -1,0 +1,291 @@
+repo_name: MaykonCWB/StarWarsWiki-Expo
+report_id: b68445a8ef2c5a166ffda69e4f9e9218
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-04T10:45:47+00:00'
+requested_by: MaykonCWB
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo
+  detection_source: Repo Metadata
+- name: Expo
+  description: Build one project that runs natively on all your users' devices
+  website_url: https://expo.dev/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/5795/default_683a3de22a6983c41f27b04348f4c7380c5e3c21.jpg
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-01-25 23:19:38.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
+- name: React Native
+  description: A framework for building native apps with React
+  website_url: http://facebook.github.io/
+  version: 0.64.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-08 01:18:00.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-08 01:18:00.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-01-25 23:19:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo
+  detection_source: Repo Metadata
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-08 01:18:00.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-01-25 23:19:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-01-25 23:19:38.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-08 01:18:00.000000000 Z
+- name: "@react-native-community/eslint-config"
+  description: ESLint config for React Native
+  package_url: https://www.npmjs.com/@react-native-community/eslint-config
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18225/default_88b0d2e50daafd07d82e1afc6ee8f1b97181a07d.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
+- name: babel-plugin-root-import
+  description: Babel Plugin to enable relative root-import
+  package_url: https://www.npmjs.com/babel-plugin-root-import
+  version: 6.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18493/default_db00a6c1af5a4fa1e8ab7164ff7ad16844777229.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-08 01:18:00.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.25.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-08 01:18:00.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-08 01:18:00.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
+- name: react-native
+  description: A framework for building native apps using React
+  package_url: https://www.npmjs.com/react-native
+  version: 0.64.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
+- name: react-native-web
+  description: React Native for Web
+  package_url: https://www.npmjs.com/react-native-web
+  version: 0.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17683/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/MaykonCWB/StarWarsWiki-Expo/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Maykon Melo
+  last_updated_on: 2022-02-09 21:25:00.000000000 Z
